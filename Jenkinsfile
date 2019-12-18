@@ -6,5 +6,10 @@ pipeline {
                 echo "This is my first step"
             }
         }
+        stage("end") {
+            steps{
+                echo "This is my end step"
+            }
+        }
     }
 }
